@@ -12,44 +12,44 @@ This project uses Power BI to visualize and analyze restaurant data from Zomato.
 5. Power BI Dashboard
 
 # Project Objectives
-Analyze the geographical distribution of restaurants in different cities.
-Identify the most popular cuisines in each region.
-Study the correlation between restaurant ratings and cost for two.
-Examine the density of high-rated restaurants by location.
-Provide an interactive Power BI dashboard for better understanding of restaurant trends.
+1. Analyze the geographical distribution of restaurants in different cities.
+2. Identify the most popular cuisines in each region.
+3. Study the correlation between restaurant ratings and cost for two.
+4. Examine the density of high-rated restaurants by location.
+5. Provide an interactive Power BI dashboard for better understanding of restaurant trends.
 
 # Dataset
 The dataset used in this project is sourced from Kaggle's Zomato Restaurant Dataset. It includes details of over 9,000 restaurants in India.
 ## Key columns of the dataset:
-Restaurant Name: Name of the restaurant.
-City: City where the restaurant is located.
-Cuisine: Cuisine types served.
-Rating: Customer ratings out of 5.
-Cost for Two: Approximate cost for two people.
-Location: Latitude and longitude of the restaurant.
-Votes: Number of votes received by the restaurant.
+1. Restaurant Name: Name of the restaurant.
+2. City: City where the restaurant is located.
+3. Cuisine: Cuisine types served.
+4. Rating: Customer ratings out of 5.
+5. Cost for Two: Approximate cost for two people.
+6. Location: Latitude and longitude of the restaurant.
+7. Votes: Number of votes received by the restaurant.
 
 # Data Cleaning and Transformation
 Before visualizing, the dataset was cleaned and transformed using Power Query in Power BI:
-Missing Values: Handled null values in important columns (e.g., Rating, Cost for Two).
-Data Type Conversion: Ensured proper data types for numeric fields like cost and rating.
-Geographical Mapping: Used location data to map restaurants geographically.
+1. Missing Values: Handled null values in important columns (e.g., Rating, Cost for Two).
+2. Data Type Conversion: Ensured proper data types for numeric fields like cost and rating.
+3. Geographical Mapping: Used location data to map restaurants geographically.
 
 # Key Visualizations
 The following visualizations are included in the Power BI dashboard:
-1.Restaurant Distribution Map: A map showcasing the geographical spread of restaurants across different cities.
-2.Cuisine Popularity: Bar chart showing the most popular cuisines based on restaurant count.
-3.Ratings vs. Cost for Two: Scatter plot showing the relationship between customer ratings and average cost for two.
-4.Top Rated Restaurants: Filtered list and table of the highest-rated restaurants in each city.
-5.City-wise Analysis: A breakdown of the number of restaurants, average ratings, and average cost for two by city.
+1. Restaurant Distribution Map: A map showcasing the geographical spread of restaurants across different cities.
+2. Cuisine Popularity: Bar chart showing the most popular cuisines based on restaurant count.
+3. Ratings vs. Cost for Two: Scatter plot showing the relationship between customer ratings and average cost for two.
+4. Top Rated Restaurants: Filtered list and table of the highest-rated restaurants in each city.
+5. City-wise Analysis: A breakdown of the number of restaurants, average ratings, and average cost for two by city.
 
 # Power BI Dashboard
 The dashboard provides an interactive experience where users can:
-1.Filter by city: View data for specific cities.
-2.Explore restaurant ratings: See the distribution of ratings and how they correlate with price.
-3.Examine cuisine distribution: Understand the most common and highest-rated cuisines.
-3.Zoom in on the map: Analyze restaurant locations across various regions.
-You can download the Power BI dashboard file here
+1. Filter by city: View data for specific cities.
+2. Explore restaurant ratings: See the distribution of ratings and how they correlate with price.
+3. Examine cuisine distribution: Understand the most common and highest-rated cuisines.
+4. Zoom in on the map: Analyze restaurant locations across various regions.
+# You can download the Power BI dashboard file here
 
 ![2024-06-13 16_30_44-Window](https://github.com/user-attachments/assets/338873bf-6d4c-49fb-8a3b-b26e525fa74c)
 ![2024-06-13 16_30_26-Window](https://github.com/user-attachments/assets/7abb81cf-56ce-4cc1-afac-d99a678a0f6a)
